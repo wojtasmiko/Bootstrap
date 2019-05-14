@@ -1,0 +1,29 @@
+*{
+   margin: 0;
+   padding:0;
+   box-sizing:border-box;
+}
+.hidden {
+   display: none;
+}
+.content >div >div h2{
+   text-align: center;
+}
+.content >div >div p{
+   text-align: center;
+}
+.content >div >div h3{
+   text-align: center;
+}
+.content >div div.element{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.element{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
