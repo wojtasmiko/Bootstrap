@@ -3,8 +3,36 @@
    padding:0;
    box-sizing:border-box;
 }
+h2{
+   font-family: 'IBM Plex Sans', sans-serif;
+}
+h3{
+   font-family: 'IBM Plex Sans', sans-serif;
+}
+p{
+   font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
 .hidden {
    display: none;
+}
+nav{
+   height: 50px;
+   width: 100%;
+   background-color: #fff;
+   position: sticky;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+nav >img{
+   height: 50px;
+   width: 50px;
+}
+nav >h2{
+margin: 0px;
+}
+article.content{
+   padding: 40px 0 40px;
 }
 .content >div >div h2{
    text-align: center;
@@ -26,4 +54,24 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+}
+
+section.content2{
+padding: 40px 0px 40px;
+}
+section.content2 >div >div >p{
+text-align: center;
+}
+footer{
+   background-color: #333333;
+   padding: 30px 20px 20px 20px;
+}
+footer >div >div >h3{
+color: white;
+}
+footer >div >div >p{
+color: #D8D8D8;
+}
+footer >div >div >p.last{
+text-align:center;
 }
